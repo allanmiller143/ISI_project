@@ -1,0 +1,40 @@
+/* src/styles.css */
+.login-box {
+    width: 250px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para TextField */
+  .login-box input {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border-color: rgba(123, 123, 123, 0.196);
+    border-width: 0.5px;
+  }
+  
+  /* Estilos para Button */
+  .login-box button {
+    width: 60%;
+    padding: 10px;
+    background-color: #ae3b33fa;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .login-box button:hover {
+    background-color: #e32315f6;
+  }
+
+  .imagem-menor {
+    width: 600px; /* Ajuste o valor conforme necessário */
+    height: auto; /* Isso mantém a proporção da imagem */
+    margin-bottom: 20px;
+  }
+  

@@ -3,9 +3,11 @@ import React from 'react';
 
 function Button({ label, onClick }) {
   return (
-    <button onClick={onClick}>
-      {label}
-    </button>
+    <div className='my-button-align'>
+      <button onClick={onClick}className = 'my-button'>
+        {label}
+      </button>
+    </div>
   );
 }
 

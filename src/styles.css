@@ -1,7 +1,9 @@
 /* src/styles.css */
 .login-box {
-    width: 250px;
-    padding: 30px;
+    width: 600px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -17,18 +19,18 @@
     border-width: 0.5px;
   }
   
-  /* Estilos para Button */
-  .login-box button {
-    width: 60%;
+  .my-button {
+    width: 25%;
     padding: 10px;
     background-color: #ae3b33fa;
     color: #fff;
     border: none;
     border-radius: 50px;
     cursor: pointer;
+
   }
   
-  .login-box button:hover {
+  .my-button:hover {
     background-color: #e32315f6;
   }
 
@@ -37,4 +39,58 @@
     height: auto; /* Isso mantém a proporção da imagem */
     margin-bottom: 20px;
   }
+
+  .text {
+    color: black;
+    font-weight: 500;
+    font-size: 24px;
+    border-bottom: 1px solid #AE3C33; 
+    padding-bottom: 10px; 
+    display: flex;
+    
+  }
+
+
+.card-container {
+  display: flex; /* Torna os filhos flexíveis (itens na mesma linha) */
+  background-color: #ffffff;
+  border-radius: 40px; /* Bordas arredondadas, ajuste conforme necessário */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra, ajuste conforme necessário */
+  margin-bottom: 10px;
+  width: 130%;
+  margin-left: 10px;
+
+}  
+
+.label-container {
+  border-radius: 40px; /* Bordas arredondadas à esquerda */
+  background-color: #AE3C33;  /* Cor de fundo para a label, ajuste conforme necessário */
+  width: 100px;
+}
+
+.label-text{
+  font-size: 18px;
+  margin: 5px;
+  font-weight: 500;
+  
+}
+
+.value-text{
+  padding-left: 10px;
+  font-size: 18px;
+  margin: 5px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.profile-section{
+  display: flex;
+  align-items: center;
+}
+
+.my-button-align{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
   
